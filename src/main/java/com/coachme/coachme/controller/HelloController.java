@@ -11,4 +11,9 @@ public class HelloController {
         return "Welcome to Coach Me! Your Learning journey starts here";
     }
 
+    @GetMapping("/api/info")
+    public String getInfo(){
+        return "Coachme backend v1.0 - powered by Spring-boot";
+    }
+
 }
